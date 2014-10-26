@@ -1,5 +1,5 @@
 {
-  "name": "convert-to-utf8",
+  "name": "ConvertToUtf8Plus",
   "main": "./lib/convert-to-utf8",
   "version": "0.0.4",
   "description": "ConvertToUTF8 package for editing and saving files encoded in BIG5, GBK, Shift_JIS, etc",
