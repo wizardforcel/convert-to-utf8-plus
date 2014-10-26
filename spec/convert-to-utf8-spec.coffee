@@ -1,3 +1,4 @@
+{WorkspaceView} = require 'atom'
 ConvertToUtf8 = require '../lib/convert-to-utf8'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.

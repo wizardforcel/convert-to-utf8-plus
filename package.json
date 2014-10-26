@@ -4,15 +4,21 @@
   "version": "0.0.4",
   "description": "ConvertToUTF8 package for editing and saving files encoded in BIG5, GBK, Shift_JIS, etc",
   "activationEvents": [
-    "convert-to-utf8:open_shift_jis",
-    "convert-to-utf8:save_shift_jis"
+    "convert-to-utf8:gbk",
+    "convert-to-utf8:big5",
+    "convert-to-utf8:euc-kr",
+    "convert-to-utf8:shift_jis",
+    "convert-to-utf8:cp932",
+    "convert-to-utf8:euc-jp",
+    "convert-to-utf8:utf8"
   ],
-  "repository": "https://github.com/dongri/convert-to-utf8",
+  "repository": "https://github.com/CYBAI/convert-to-utf8",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "iconv-lite": "^0.4.4"
+    "iconv-lite": "^0.4.4",
+    "jschardet": "^1.1.0"
   }
 }
