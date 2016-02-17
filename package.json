@@ -1,18 +1,25 @@
 {
   "name": "ConvertToUtf8Plus",
   "main": "./lib/convert-to-utf8",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "ConvertToUTF8 package for editing and saving files encoded in BIG5, GBK, Shift_JIS, etc",
   "activationEvents": [
-    "convert-to-utf8:gbk",
-    "convert-to-utf8:big5",
-    "convert-to-utf8:euc-kr",
-    "convert-to-utf8:shift_jis",
-    "convert-to-utf8:cp932",
-    "convert-to-utf8:euc-jp",
-    "convert-to-utf8:utf8"
+    "convert-to-utf8:open:gbk",
+    "convert-to-utf8:open:big5",
+    "convert-to-utf8:open:euc-kr",
+    "convert-to-utf8:open:shift_jis",
+    "convert-to-utf8:open:cp932",
+    "convert-to-utf8:open:euc-jp",
+    "convert-to-utf8:open:utf8",
+    "convert-to-utf8:save:gbk",
+    "convert-to-utf8:save:big5",
+    "convert-to-utf8:save:euc-kr",
+    "convert-to-utf8:save:shift_jis",
+    "convert-to-utf8:save:cp932",
+    "convert-to-utf8:save:euc-jp",
+    "convert-to-utf8:save:utf8"
   ],
-  "repository": "https://github.com/CYBAI/convert-to-utf8",
+  "repository": "https://github.com/wizardforcel/convert-to-utf8",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
